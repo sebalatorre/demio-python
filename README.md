@@ -9,7 +9,7 @@ demio = demio = DemioAPI(api_key, api_secret)
 ```
 
 ### Ping
-Will return True is succesful or False if failed.
+Will return True if succesful or False if failed.
 ```python
 response = demio.ping
 ```
