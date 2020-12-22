@@ -48,5 +48,6 @@ response = demio.event_date_participants(event_id, date_id)
 Register an attendee to an event. It will return the unique join link of the attendee if succesful. Response in json format.
 ```python
 response = demio.register(event_id, first_name, last_name, email)
+```
 
-#Enjoy!
+# Enjoy!
