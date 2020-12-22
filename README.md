@@ -1,9 +1,9 @@
 # demio-python
-Handler for the DemioAPI for python projects.
+Wrapper for the DemioAPI for python projects.
 Go to the [DemioAPI documentation](https://publicdemioapi.docs.apiary.io/) for details on the fields that will be returned on each API call.
 
 ## How to use
-Import the file where you want to use it and crate an object of "DemioAPI" with the parameters "api_key" and "api_secret". As always, keep those values on evironment variables.
+Import this library where you want to use it and create an object of "DemioAPI" with the parameters "api_key" and "api_secret". As always, keep those values on evironment constants.
 ```python
 demio = demio = DemioAPI(api_key, api_secret)
 ```
